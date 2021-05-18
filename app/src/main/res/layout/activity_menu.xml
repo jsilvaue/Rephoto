@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/ibtn_Mapa"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:onClick="Click_ibtnMapa"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_map" />
+
+    <ImageButton
+        android:id="@+id/ibtn_Cam"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_Mapa"
+        app:srcCompat="@drawable/icon_foto" />
+
+    <ImageButton
+        android:id="@+id/ibtn_Album"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_Cam"
+        app:srcCompat="@drawable/icon_album" />
+
+    <ImageButton
+        android:id="@+id/ibtn_Ranking"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="Click_ibtnRanking"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_Fotos"
+        app:srcCompat="@drawable/icon_ranking" />
+
+    <ImageButton
+        android:id="@+id/ibtn_Fotos"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_Definicoes"
+        app:srcCompat="@drawable/icon_myphotos" />
+
+    <ImageButton
+        android:id="@+id/ibtn_Definicoes"
+        android:layout_width="177dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="Click_ibtnDefinicoes"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_definitions" />
+</androidx.constraintlayout.widget.ConstraintLayout>
