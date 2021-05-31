@@ -20,12 +20,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        TextView Utilizador = findViewById(R.id.txt_Utilizador);
+        TextView Password = findViewById(R.id.txt_Password);
+
+        Utilizador.setText("João");
+        Password.setText("password");
     }
 
     public void Click_btnLogin (View view) {
 
         TextView Utilizador = findViewById(R.id.txt_Utilizador);
         TextView Password = findViewById(R.id.txt_Password);
+
 
         if (Utilizador.getText().toString().equals("João") && Password.getText().toString().equals("password")){
 

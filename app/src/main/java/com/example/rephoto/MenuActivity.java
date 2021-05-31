@@ -37,4 +37,10 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RankingActivity.class);
         startActivity(intent);
     }
+
+    public void Click_ibtnCam (View view) {
+
+        Intent intent = new Intent(this, Cam.class);
+        startActivity(intent);
+    }
 }
