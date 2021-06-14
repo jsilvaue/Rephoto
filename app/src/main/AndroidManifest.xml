@@ -21,6 +21,7 @@
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="@string/map_key"/>
 
+        <activity android:name=".PortfolioUtilizadorActivity"> </activity>
         <activity android:name=".MapaActivity"> </activity>
         <activity android:name=".RankingActivity"> </activity>
         <activity android:name=".MenuActivity"> </activity>

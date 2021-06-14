@@ -10,4 +10,76 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="nome">Nome</string>
+    
+    <string name="group1">1º Lugar</string>
+    <string name="group2">2º Lugar</string>
+    <string name="group3">3º Lugar</string>
+    <string name="group4">4º Lugar</string>
+    <string name="group5">5º Lugar</string>
+    <string name="group6">6º Lugar</string>
+    <string name="group7">7º Lugar</string>
+    <string name="group8">8º Lugar</string>
+    <string name="group9">9º Lugar</string>
+    <string name="group10">10º Lugar</string>
+    
+    <string-array name="group1">
+        <item>Fotografia: Torre de Belém</item>
+        <item>Autor: João</item>
+        <item>Número de Likes: 1000</item>
+    </string-array>
+
+    <string-array name="group2">
+        <item>Fotografia: Torre de Belém</item>
+        <item>Autor: Maria</item>
+        <item>Número de Likes: 987</item>
+    </string-array>
+
+    <string-array name="group3">
+        <item>Fotografia: Torre de Belém</item>
+        <item>Autor: António</item>
+        <item>Número de Likes: 945</item>
+    </string-array>
+
+    <string-array name="group4">
+        <item>Fotografia: Mosteiro dos Jerónimos</item>
+        <item>Autor: João</item>
+        <item>Número de Likes: 865</item>
+    </string-array>
+
+    <string-array name="group5">
+        <item>Fotografia: Monumento aos Restauradores</item>
+        <item>Autor: Maria</item>
+        <item>Número de Likes: 863</item>
+    </string-array>
+
+    <string-array name="group6">
+        <item>Fotografia: Mosteiro dos Jerónimos</item>
+        <item>Autor: Maria</item>
+        <item>Número de Likes: 842</item>
+    </string-array>
+
+    <string-array name="group7">
+        <item>Fotografia: Estátua do Duque da Terceira</item>
+        <item>Autor: António</item>
+        <item>Número de Likes: 823</item>
+    </string-array>
+
+    <string-array name="group8">
+        <item>Fotografia: Torre de Belém</item>
+        <item>Autor: Ana</item>
+        <item>Número de Likes: 795 </item>
+    </string-array>
+
+    <string-array name="group9">
+        <item>Fotografia: Estátua do Marquês de Pombal</item>
+        <item>Autor: João</item>
+        <item>Número de Likes: 780</item>
+    </string-array>
+
+    <string-array name="group10">
+        <item>Fotografia: Estátua do Marquês de Pombal</item>
+        <item>Autor: Ana</item>
+        <item>Número de Likes: 761</item>
+    </string-array>
+    
 </resources>

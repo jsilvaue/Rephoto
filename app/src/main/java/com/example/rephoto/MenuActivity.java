@@ -2,22 +2,31 @@ package com.example.rephoto;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
 public class MenuActivity extends AppCompatActivity {
 
+    DrawerLayout drawerLayout;
+    ImageView btMenu;
+    RecyclerView recyclerView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+
+
     }
 
     public void Click_ibtnDefinicoes (View view) {
@@ -41,6 +50,12 @@ public class MenuActivity extends AppCompatActivity {
     public void Click_ibtnCam (View view) {
 
         Intent intent = new Intent(this, Cam.class);
+        startActivity(intent);
+    }
+
+    public void Click_ibtnFotos (View view) {
+
+        Intent intent = new Intent(this, PortfolioUtilizadorActivity.class);
         startActivity(intent);
     }
 }

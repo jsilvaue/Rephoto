@@ -1,61 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TableLayout
-        android:layout_width="376dp"
-        android:layout_height="664dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="19dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <ExpandableListView
+        android:id="@+id/expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/tv_Nickname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="@string/nome"
-                android:textColor="@color/black"
-                android:background="#90EE90"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/tv_Fotografia"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="Fotografia"
-                android:background="#90EE90"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/tv_Likes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="Nº de Likes"
-                android:background="#90EE90"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-        </TableRow>
-
-    </TableLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
