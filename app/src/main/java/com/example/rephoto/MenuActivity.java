@@ -49,13 +49,19 @@ public class MenuActivity extends AppCompatActivity {
 
     public void Click_ibtnCam (View view) {
 
-        Intent intent = new Intent(this, Cam.class);
+        Intent intent = new Intent(this, ArAcitivy.class);
         startActivity(intent);
     }
 
     public void Click_ibtnFotos (View view) {
 
         Intent intent = new Intent(this, PortfolioUtilizadorActivity.class);
+        startActivity(intent);
+    }
+
+    public void Click_ibtnAlbum (View view) {
+
+        Intent intent = new Intent(this, AlbumActivity.class);
         startActivity(intent);
     }
 }

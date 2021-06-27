@@ -24,13 +24,14 @@
             android:background="@android:color/darker_gray"/>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/recycler_view"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:layout_marginTop="8dp"
-            tools:listitem="@layout/item_drawer_main"/>
+            tools:listitem="@layout/item_drawer_main" />
 
     </LinearLayout>
 

@@ -15,7 +15,7 @@ public class PortfolioUtilizadorActivity extends AppCompatActivity {
     ImageButton btPrevious, btNext;
     ImageSwitcher imageSwitcher;
 
-    int imageList[] = {R.drawable.i_belem, R.drawable.i_duque, R.drawable.i_marques, R.drawable.i_mosteiro};
+    int imageList[] = {R.drawable.i_belem, R.drawable.i_duque, R.drawable.i_marques};
     int count = imageList.length;
     int currentIndex = 0;
 
@@ -32,7 +32,7 @@ public class PortfolioUtilizadorActivity extends AppCompatActivity {
             @Override
             public View makeView() {
                 ImageView imageView = new ImageView(getApplicationContext());
-                imageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
+                imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 imageView.setLayoutParams(new ImageSwitcher.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.FILL_PARENT));
                 return imageView;
             }

@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:gravity="center">
+    android:background="#FFFFF0"
+    android:gravity="center"
+    android:orientation="horizontal">
 
     <ImageButton
+        android:id="@+id/bt_previous"
         android:layout_width="50dp"
         android:layout_height="80dp"
-        android:id="@+id/bt_previous"
         android:background="@android:color/transparent"
-        android:src="@drawable/ic_navigate_before"/>
+        android:src="@drawable/ic_navigate_before" />
 
     <ImageSwitcher
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/image_switcher"/>
+        android:id="@+id/image_switcher"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:scaleType="fitXY" />
 
     <ImageButton
+        android:id="@+id/bt_next"
         android:layout_width="50dp"
         android:layout_height="80dp"
-        android:id="@+id/bt_next"
         android:background="@android:color/transparent"
-        android:src="@drawable/ic_navigate_next"/>
+        android:src="@drawable/ic_navigate_next" />
 
 </LinearLayout>
